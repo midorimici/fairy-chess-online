@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders unchanged 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-container css-1y4v3tz"
+  >
+    <main
+      class="css-i9gxme"
+    >
+      <a
+        class="chakra-link css-0"
+        href="/games"
+      >
+        Games
+      </a>
+    </main>
+    <div
+      class="css-gmuwbf"
+    >
+      © 2022-22 Midori Mici
+    </div>
+  </div>
+</DocumentFragment>
+`;
