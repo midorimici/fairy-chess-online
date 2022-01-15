@@ -1,4 +1,5 @@
 import { Box, Container } from '@chakra-ui/react';
+import { useTranslation } from 'next-i18next';
 import { Footer } from 'components/atoms';
 
 type Props = {
@@ -6,6 +7,7 @@ type Props = {
 };
 
 export const Cont: React.FC<Props> = ({ children }) => {
+  const { t } = useTranslation();
   const currentYearLastTwoDigits = new Date().getFullYear() - 2000;
 
   return (
@@ -21,7 +23,7 @@ export const Cont: React.FC<Props> = ({ children }) => {
       </Box>
       <Footer>
         &copy;
-        {` 2022-${currentYearLastTwoDigits} Midori Mici`}
+        {` 2022-${currentYearLastTwoDigits} ${t('midorimici')}`}
       </Footer>
     </Container>
   );
