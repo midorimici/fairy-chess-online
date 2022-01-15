@@ -53,6 +53,8 @@
   },
   "eslintIgnore": [
     "jest.config.js",
-    "jest.setup.js"
+    "jest.setup.js",
+    "next-i18next.config.js",
+    "next.config.js"
   ]
 }
