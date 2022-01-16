@@ -13,7 +13,7 @@ exports[`renders Container unchanged 1`] = `
     <div
       class="css-gmuwbf"
     >
-      © 2022-22 Midori Mici
+      © 2022-22 midorimici
     </div>
   </div>
 </DocumentFragment>
