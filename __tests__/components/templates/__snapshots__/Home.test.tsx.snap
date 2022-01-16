@@ -12,13 +12,13 @@ exports[`Home renders unchanged 1`] = `
         class="chakra-link css-0"
         href="/games"
       >
-        Games
+        games
       </a>
     </main>
     <div
       class="css-gmuwbf"
     >
-      © 2022-22 Midori Mici
+      © 2022-22 midorimici
     </div>
   </div>
 </DocumentFragment>

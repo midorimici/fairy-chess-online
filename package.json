@@ -17,6 +17,7 @@
     "firebase": "^9.6.3",
     "framer-motion": "^5",
     "next": "12.0.7",
+    "next-i18next": "^10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -46,12 +47,15 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-storybook": "^0.5.5",
     "jest": "^27.4.7",
+    "storybook-react-i18next": "^1.0.16",
     "tsconfig-paths-webpack-plugin": "^3.5.2",
     "typescript": "4.5.4",
     "webpack": "5"
   },
   "eslintIgnore": [
     "jest.config.js",
-    "jest.setup.js"
+    "jest.setup.js",
+    "next-i18next.config.js",
+    "next.config.js"
   ]
 }
