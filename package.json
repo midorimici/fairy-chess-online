@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "i18n": "i18nexus pull",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest --coverage"
@@ -46,6 +47,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-storybook": "^0.5.5",
+    "i18nexus-cli": "^2.0.2",
     "jest": "^27.4.7",
     "storybook-react-i18next": "^1.0.16",
     "tsconfig-paths-webpack-plugin": "^3.5.2",
