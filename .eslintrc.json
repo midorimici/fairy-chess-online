@@ -35,7 +35,7 @@
         "functions": "never"
       }
     ],
-    "no-console": ["error", { "allow": ["error"] }],
+    "no-console": ["warn", { "allow": ["error"] }],
     "object-curly-newline": "off",
     "operator-linebreak": "off",
     "import/extensions": [
