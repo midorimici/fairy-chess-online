@@ -29,6 +29,11 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
         id
         name
         description
+        initialBoardImage {
+          url
+          width
+          height
+        }
       }
     }
   `);
