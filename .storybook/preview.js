@@ -1,4 +1,12 @@
+import * as NextImage from 'next/image';
 import { i18n } from './i18n';
+
+const OriginalNextImage = NextImage.default;
+
+Object.defineProperty(NextImage, 'default', {
+  configurable: true,
+  value: (props) => <OriginalNextImage {...props} unoptimized loader={({ src }) => src} />,
+});
 
 export const parameters = {
   i18n,
