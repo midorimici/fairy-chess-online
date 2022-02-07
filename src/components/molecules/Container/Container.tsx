@@ -1,6 +1,6 @@
 import { Box, Container } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
-import { Footer } from 'components/atoms';
+import { Footer } from '~/components/atoms';
 
 type Props = {
   children: React.ReactNode;

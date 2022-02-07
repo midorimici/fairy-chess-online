@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { Home } from 'components/templates';
+import { Home } from '~/components/templates';
 
 describe('Home', () => {
   it('renders unchanged', () => {

@@ -1,7 +1,7 @@
 import { Link } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
-import { Container } from 'components/molecules';
+import { Container } from '~/components/molecules';
 
 export const Home: React.FC = () => {
   const { t } = useTranslation();
