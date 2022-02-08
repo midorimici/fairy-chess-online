@@ -1,6 +1,6 @@
 ## What?
 
-Describe saccinctly the effects by this PR.
+Describe succinctly the effects by this PR.
 
 ## Why?
 
