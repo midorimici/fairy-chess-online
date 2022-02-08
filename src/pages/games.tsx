@@ -1,22 +1,14 @@
 import type { GetStaticProps, NextPage } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import type { Namespace } from 'react-i18next';
+import { Games } from '~/components/templates';
 import { fetchGql } from '~/lib/graphcms';
 
 type Props = {
   games: Game[];
 };
 
-const GamesPage: NextPage<Props> = ({ games }) => (
-  <ul>
-    {games.map((game: Game) => (
-      <div key={game.id}>
-        <li>{game.name}</li>
-        <li>{game.description}</li>
-      </div>
-    ))}
-  </ul>
-);
+const GamesPage: NextPage<Props> = ({ games }) => <Games games={games} />;
 
 export default GamesPage;
 
