@@ -11,36 +11,74 @@ env:
   NODE_VERSION: 17
 
 jobs:
-  lint:
+  setup-env:
+    name: Setup environment
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      - name: Restore node_modules
+        uses: actions/cache@v3
+        id: node-modules-cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deps-
+
       - name: Install deps
+        if: steps.node-modules-cache.outputs.cache-hit != 'true'
         run: yarn
+
+      - name: Cache node_modules
+        if: steps.node-modules-cache.outputs.cache-hit != 'true'
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deps-
+
+  lint:
+    needs: setup-env
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Restore node_modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deps-
 
       - name: Lint
         run: yarn lint
 
   test:
+    needs: setup-env
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - name: Restore node_modules
+        uses: actions/cache@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install deps
-        run: yarn
+          path: node_modules
+          key: ${{ runner.os }}-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deps-
 
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.0.0
@@ -51,21 +89,22 @@ jobs:
           debug: true
 
   build:
+    needs: setup-env
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Restore node_modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deps-
 
       - name: Create .env file
         run: echo "${{ secrets.ENV_VARS }}" > .env
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install deps
-        run: yarn
 
       - name: Build
         run: yarn build
