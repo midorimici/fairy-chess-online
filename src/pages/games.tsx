@@ -18,7 +18,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const data = await fetchGql<GamesResponse>(`
     {
       games {
-        id
+        slug
         name
         description
         initialBoardImage {

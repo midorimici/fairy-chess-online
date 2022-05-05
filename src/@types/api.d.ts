@@ -1,5 +1,5 @@
 type Game = {
-  id: string;
+  slug: string;
   name: string;
   description: string;
   initialBoardImage: {

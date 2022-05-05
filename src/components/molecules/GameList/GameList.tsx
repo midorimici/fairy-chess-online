@@ -8,7 +8,7 @@ type Props = {
 export const GameList: React.FC<Props> = ({ games }) => (
   <Stack spacing={8}>
     {games.map((game: Game) => (
-      <GameListItem key={game.id} game={game} />
+      <GameListItem key={game.slug} game={game} />
     ))}
   </Stack>
 );
