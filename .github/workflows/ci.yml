@@ -7,6 +7,9 @@ on:
       - 'src/**'
       - '__tests__/**'
 
+env:
+  NODE_VERSION: 17
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -17,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 17
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Install deps
         run: yarn
@@ -34,7 +37,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 17
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Install deps
         run: yarn
@@ -59,7 +62,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 17
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Install deps
         run: yarn
