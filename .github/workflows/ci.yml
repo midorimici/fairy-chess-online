@@ -6,6 +6,12 @@ on:
       - '.github/workflows/ci.yml'
       - 'src/**'
       - '__tests__/**'
+      - 'tsconfig.json'
+      - '.eslintrc.json'
+      - 'jest.setup.js'
+      - 'jest.config.js'
+      - 'next.config.js'
+      - 'yarn.lock'
 
 env:
   NODE_VERSION: 17
