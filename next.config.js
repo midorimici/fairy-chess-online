@@ -5,6 +5,6 @@ module.exports = {
   reactStrictMode: true,
   i18n,
   images: {
-    domains: ['media.graphcms.com'],
+    domains: ['media.graphassets.com'],
   },
 };
