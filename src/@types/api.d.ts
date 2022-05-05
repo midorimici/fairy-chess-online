@@ -12,3 +12,7 @@ type Game = {
 type GamesResponse = {
   games: Game[];
 };
+
+type GameResponse = {
+  game: Game;
+};
