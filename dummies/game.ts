@@ -1,5 +1,5 @@
-export const game = {
-  id: '1234567890abcdef',
+export const game: Game = {
+  slug: 'game',
   name: 'Game name',
   description:
     'Game desciption. This part may contains the description about the game or/and pieces used in the game.',

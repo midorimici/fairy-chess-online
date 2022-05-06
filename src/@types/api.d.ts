@@ -1,5 +1,5 @@
 type Game = {
-  id: string;
+  slug: string;
   name: string;
   description: string;
   initialBoardImage: {
@@ -11,4 +11,8 @@ type Game = {
 
 type GamesResponse = {
   games: Game[];
+};
+
+type GameResponse = {
+  game: Game;
 };

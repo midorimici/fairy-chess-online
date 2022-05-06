@@ -1,25 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders GameListItem unchanged 1`] = `
+exports[`renders GameDetails unchanged 1`] = `
 <DocumentFragment>
   <div
-    class="chakra-linkbox css-1cnlftd"
+    class="chakra-stack css-1vpxlgj"
   >
-    <div
-      class="css-2rlxtj"
-    >
-      <a
-        class="chakra-linkbox__overlay css-15i5kzd"
-        href="/games/game"
-      >
-        Game name
-      </a>
-      <p
-        class="chakra-text css-0"
-      >
-        Game desciption. This part may contains the description about the game or/and pieces used in the game.
-      </p>
-    </div>
     <span
       style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
     >
@@ -34,6 +19,7 @@ exports[`renders GameListItem unchanged 1`] = `
         />
       </span>
       <img
+        alt="Game name"
         data-nimg="intrinsic"
         decoding="async"
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -41,6 +27,16 @@ exports[`renders GameListItem unchanged 1`] = `
       />
       <noscript />
     </span>
+    <p
+      class="chakra-text css-1n49pl7"
+    >
+      Game name
+    </p>
+    <p
+      class="chakra-text css-0"
+    >
+      Game desciption. This part may contains the description about the game or/and pieces used in the game.
+    </p>
   </div>
 </DocumentFragment>
 `;
