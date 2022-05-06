@@ -3,16 +3,17 @@
 exports[`renders GameListItem unchanged 1`] = `
 <DocumentFragment>
   <div
-    class="css-gg4vpm"
+    class="chakra-linkbox css-1cnlftd"
   >
     <div
       class="css-2rlxtj"
     >
-      <p
-        class="chakra-text css-1n49pl7"
+      <a
+        class="chakra-linkbox__overlay css-15i5kzd"
+        href="/games/game"
       >
         Game name
-      </p>
+      </a>
       <p
         class="chakra-text css-0"
       >

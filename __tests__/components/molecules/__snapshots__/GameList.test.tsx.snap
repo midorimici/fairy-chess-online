@@ -6,16 +6,17 @@ exports[`renders GameList unchanged 1`] = `
     class="chakra-stack css-1clhiew"
   >
     <div
-      class="css-gg4vpm"
+      class="chakra-linkbox css-1cnlftd"
     >
       <div
         class="css-2rlxtj"
       >
-        <p
-          class="chakra-text css-1n49pl7"
+        <a
+          class="chakra-linkbox__overlay css-15i5kzd"
+          href="/games/first-game"
         >
           First game
-        </p>
+        </a>
         <p
           class="chakra-text css-0"
         >
@@ -45,16 +46,17 @@ exports[`renders GameList unchanged 1`] = `
       </span>
     </div>
     <div
-      class="css-gg4vpm"
+      class="chakra-linkbox css-1cnlftd"
     >
       <div
         class="css-2rlxtj"
       >
-        <p
-          class="chakra-text css-1n49pl7"
+        <a
+          class="chakra-linkbox__overlay css-15i5kzd"
+          href="/games/second-game"
         >
           Second game
-        </p>
+        </a>
         <p
           class="chakra-text css-0"
         >
