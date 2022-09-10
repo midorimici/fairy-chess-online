@@ -5,7 +5,7 @@ import { Games } from '~/components/templates';
 import { fetchGql } from '~/lib/hygraph';
 
 type Props = {
-  games: Game[];
+  games: GameSummary[];
 };
 
 const GamesPage: NextPage<Props> = ({ games }) => <Games games={games} />;
@@ -14,7 +14,9 @@ export default GamesPage;
 
 const namespaces: Namespace = ['common'];
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
+export const getStaticProps: GetStaticProps<{ games: GameSummary[] }, { slug: string }> = async ({
+  locale,
+}) => {
   const data = await fetchGql<GamesResponse>(`
     {
       games {

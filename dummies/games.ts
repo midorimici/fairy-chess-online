@@ -1,4 +1,4 @@
-export const games: Game[] = [
+export const games: GameSummary[] = [
   {
     slug: 'first-game',
     name: 'First game',

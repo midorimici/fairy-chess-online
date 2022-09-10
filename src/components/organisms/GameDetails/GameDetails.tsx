@@ -2,7 +2,7 @@ import { Text, VStack } from '@chakra-ui/react';
 import Image from 'next/image';
 
 type Props = {
-  game: Game;
+  game: GameDetail;
 };
 
 export const GameDetails: React.FC<Props> = ({ game }) => (
