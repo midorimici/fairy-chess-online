@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import type { Namespace } from 'react-i18next';
 import { i18n } from 'next-i18next.config';
 import { Game } from '~/components/templates';
-import { fetchGql } from '~/lib/graphcms';
+import { fetchGql } from '~/lib/hygraph';
 
 const GamePage: NextPage<GameResponse> = ({ game }) => <Game game={game} />;
 
