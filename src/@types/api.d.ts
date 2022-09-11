@@ -18,3 +18,7 @@ type GameDetail = GameSummary;
 type GameResponse = {
   game: GameDetail;
 };
+
+type NewRoomResponse = {
+  games: GameSummary[];
+};
