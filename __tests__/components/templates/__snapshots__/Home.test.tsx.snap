@@ -3,10 +3,10 @@
 exports[`Home renders unchanged 1`] = `
 <DocumentFragment>
   <div
-    class="chakra-container css-1y4v3tz"
+    class="chakra-container css-0"
   >
     <main
-      class="css-i9gxme"
+      class="css-0"
     >
       <a
         class="chakra-link css-0"
@@ -16,7 +16,7 @@ exports[`Home renders unchanged 1`] = `
       </a>
     </main>
     <div
-      class="css-gmuwbf"
+      class="css-0"
     >
       © 2022-22 midorimici
     </div>

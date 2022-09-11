@@ -3,13 +3,13 @@
 exports[`Game renders unchanged 1`] = `
 <DocumentFragment>
   <div
-    class="chakra-container css-1y4v3tz"
+    class="chakra-container css-0"
   >
     <main
-      class="css-i9gxme"
+      class="css-0"
     >
       <div
-        class="chakra-stack css-p27qbx"
+        class="chakra-stack css-0"
       >
         <nav
           aria-label="breadcrumb"
@@ -19,7 +19,7 @@ exports[`Game renders unchanged 1`] = `
             class="chakra-breadcrumb__list css-0"
           >
             <li
-              class="chakra-breadcrumb__list-item css-vn2883"
+              class="chakra-breadcrumb__list-item css-0"
             >
               <a
                 class="chakra-breadcrumb__link css-0"
@@ -28,7 +28,7 @@ exports[`Game renders unchanged 1`] = `
                 games
               </a>
               <span
-                class="css-t4q1nq"
+                class="css-0"
                 role="presentation"
               >
                 <svg
@@ -45,7 +45,7 @@ exports[`Game renders unchanged 1`] = `
               </span>
             </li>
             <li
-              class="chakra-breadcrumb__list-item css-vn2883"
+              class="chakra-breadcrumb__list-item css-0"
             >
               <span
                 aria-current="page"
@@ -57,10 +57,10 @@ exports[`Game renders unchanged 1`] = `
           </ol>
         </nav>
         <div
-          class="chakra-stack css-snbr68"
+          class="chakra-stack css-0"
         >
           <div
-            class="chakra-stack css-1vpxlgj"
+            class="chakra-stack css-0"
           >
             <span
               style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -71,7 +71,7 @@ exports[`Game renders unchanged 1`] = `
                 <img
                   alt=""
                   aria-hidden="true"
-                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27256%27%20height=%27256%27/%3e"
                   style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
                 />
               </span>
@@ -85,7 +85,7 @@ exports[`Game renders unchanged 1`] = `
               <noscript />
             </span>
             <p
-              class="chakra-text css-1n49pl7"
+              class="chakra-text css-0"
             >
               Game name
             </p>
@@ -96,14 +96,14 @@ exports[`Game renders unchanged 1`] = `
             </p>
           </div>
           <div
-            class="chakra-stack css-p27qbx"
+            class="chakra-stack css-0"
           >
             <button
-              class="chakra-button css-5c2176"
+              class="chakra-button css-0"
               type="button"
             >
               <span
-                class="chakra-button__icon css-1wh2kri"
+                class="chakra-button__icon css-0"
               >
                 <svg
                   aria-hidden="true"
@@ -120,11 +120,11 @@ exports[`Game renders unchanged 1`] = `
               play-public
             </button>
             <button
-              class="chakra-button css-5c2176"
+              class="chakra-button css-0"
               type="button"
             >
               <span
-                class="chakra-button__icon css-1wh2kri"
+                class="chakra-button__icon css-0"
               >
                 <svg
                   aria-hidden="true"
@@ -145,7 +145,7 @@ exports[`Game renders unchanged 1`] = `
       </div>
     </main>
     <div
-      class="css-gmuwbf"
+      class="css-0"
     >
       © 2022-22 midorimici
     </div>

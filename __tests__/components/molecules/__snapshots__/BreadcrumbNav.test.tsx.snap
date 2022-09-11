@@ -10,7 +10,7 @@ exports[`renders BreadcrumbNav unchanged 1`] = `
       class="chakra-breadcrumb__list css-0"
     >
       <li
-        class="chakra-breadcrumb__list-item css-vn2883"
+        class="chakra-breadcrumb__list-item css-0"
       >
         <a
           class="chakra-breadcrumb__link css-0"
@@ -19,7 +19,7 @@ exports[`renders BreadcrumbNav unchanged 1`] = `
           Home
         </a>
         <span
-          class="css-t4q1nq"
+          class="css-0"
           role="presentation"
         >
           <svg
@@ -36,7 +36,7 @@ exports[`renders BreadcrumbNav unchanged 1`] = `
         </span>
       </li>
       <li
-        class="chakra-breadcrumb__list-item css-vn2883"
+        class="chakra-breadcrumb__list-item css-0"
       >
         <a
           class="chakra-breadcrumb__link css-0"
@@ -45,7 +45,7 @@ exports[`renders BreadcrumbNav unchanged 1`] = `
           Docs
         </a>
         <span
-          class="css-t4q1nq"
+          class="css-0"
           role="presentation"
         >
           <svg
@@ -62,7 +62,7 @@ exports[`renders BreadcrumbNav unchanged 1`] = `
         </span>
       </li>
       <li
-        class="chakra-breadcrumb__list-item css-vn2883"
+        class="chakra-breadcrumb__list-item css-0"
       >
         <span
           aria-current="page"

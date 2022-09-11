@@ -3,7 +3,7 @@
 exports[`renders Footer unchanged 1`] = `
 <DocumentFragment>
   <div
-    class="css-gmuwbf"
+    class="css-0"
   >
     Main contents
   </div>
