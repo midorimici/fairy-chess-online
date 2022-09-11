@@ -22,3 +22,8 @@ export const games: GameSummary[] = [
     },
   },
 ];
+
+export const gamesMap: Record<string, GameSummary> = {
+  'first-game': games[0],
+  'second-game': games[1],
+};

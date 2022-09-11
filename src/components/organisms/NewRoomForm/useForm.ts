@@ -2,7 +2,7 @@ import { useCallback, useMemo, useState } from 'react';
 
 type Visibility = 'public' | 'private';
 
-type UseFormReturnType = {
+export type UseFormReturnType = {
   gamesMap: Record<string, GameSummary>;
   selectedGame: string;
   visibility: Visibility;
