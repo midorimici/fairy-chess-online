@@ -1,4 +1,4 @@
-type Game = {
+type GameSummary = {
   slug: string;
   name: string;
   description: string;
@@ -10,9 +10,15 @@ type Game = {
 };
 
 type GamesResponse = {
-  games: Game[];
+  games: GameSummary[];
 };
 
+type GameDetail = GameSummary;
+
 type GameResponse = {
-  game: Game;
+  game: GameDetail;
+};
+
+type NewRoomResponse = {
+  games: GameSummary[];
 };

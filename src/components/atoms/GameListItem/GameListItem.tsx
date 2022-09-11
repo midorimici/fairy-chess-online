@@ -3,7 +3,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 
 type Props = {
-  game: Game;
+  game: GameSummary;
 };
 
 export const GameListItem: React.FC<Props> = ({ game }) => {

@@ -1,4 +1,4 @@
-export const game: Game = {
+export const game: GameDetail = {
   slug: 'game',
   name: 'Game name',
   description:

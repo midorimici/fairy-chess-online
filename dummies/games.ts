@@ -1,4 +1,4 @@
-export const games: Game[] = [
+export const games: GameSummary[] = [
   {
     slug: 'first-game',
     name: 'First game',
@@ -22,3 +22,8 @@ export const games: Game[] = [
     },
   },
 ];
+
+export const gamesMap: Record<string, GameSummary> = {
+  'first-game': games[0],
+  'second-game': games[1],
+};

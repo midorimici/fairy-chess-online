@@ -11,7 +11,7 @@ export default GamePage;
 
 const namespaces: Namespace = ['common'];
 
-export const getStaticProps: GetStaticProps<{ game: Game }, { slug: string }> = async ({
+export const getStaticProps: GetStaticProps<{ game: GameDetail }, { slug: string }> = async ({
   params,
   locale,
 }) => {

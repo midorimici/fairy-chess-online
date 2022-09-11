@@ -6,7 +6,7 @@ import { BreadcrumbNav, Container } from '~/components/molecules';
 import { GameDetails } from '~/components/organisms';
 
 type Props = {
-  game: Game;
+  game: GameDetail;
 };
 
 export const Game: React.FC<Props> = ({ game }) => {

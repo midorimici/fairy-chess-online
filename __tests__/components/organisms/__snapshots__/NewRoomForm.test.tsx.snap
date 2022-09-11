@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NewRoomForm unchanged 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="css-0"
+    >
+      <div
+        class="chakra-stack css-0"
+      >
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-0"
+            for="field-:r0:"
+            id="field-:r0:-label"
+          >
+            game-type
+            <span
+              aria-hidden="true"
+              class="chakra-form__required-indicator css-0"
+              role="presentation"
+            >
+              *
+            </span>
+          </label>
+          <div
+            class="chakra-select__wrapper css-0"
+          >
+            <select
+              aria-describedby="field-:r0:-helptext"
+              aria-required="true"
+              class="chakra-select css-0"
+              id="field-:r0:"
+              required=""
+            >
+              <option
+                selected=""
+                value="first-game"
+              >
+                First game
+              </option>
+              <option
+                value="second-game"
+              >
+                Second game
+              </option>
+            </select>
+            <div
+              class="chakra-select__icon-wrapper css-0"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-select__icon"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="chakra-form__helper-text css-0"
+            id="field-:r0:-helptext"
+          >
+            Game desciption. This part may contains the description about the game or/and pieces used in the game.
+          </div>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-0"
+            for="field-:r1:"
+            id="field-:r1:-label"
+          >
+            room-visibility
+            <span
+              aria-hidden="true"
+              class="chakra-form__required-indicator css-0"
+              role="presentation"
+            >
+              *
+            </span>
+          </label>
+          <div
+            class="chakra-radio-group css-0"
+            role="radiogroup"
+          >
+            <div
+              class="chakra-stack css-0"
+            >
+              <label
+                class="chakra-radio css-0"
+                data-checked=""
+              >
+                <input
+                  aria-required="true"
+                  checked=""
+                  class="chakra-radio__input"
+                  id="radio-:r3:"
+                  name="radio-:r2:"
+                  required=""
+                  style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+                  type="radio"
+                  value="public"
+                />
+                <span
+                  aria-hidden="true"
+                  class="chakra-radio__control css-0"
+                  data-checked=""
+                />
+                <span
+                  class="chakra-radio__label css-0"
+                  data-checked=""
+                >
+                  public
+                </span>
+              </label>
+              <label
+                class="chakra-radio css-0"
+              >
+                <input
+                  aria-required="true"
+                  class="chakra-radio__input"
+                  id="radio-:r4:"
+                  name="radio-:r2:"
+                  required=""
+                  style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+                  type="radio"
+                  value="private"
+                />
+                <span
+                  aria-hidden="true"
+                  class="chakra-radio__control css-0"
+                />
+                <span
+                  class="chakra-radio__label css-0"
+                >
+                  private
+                </span>
+              </label>
+            </div>
+          </div>
+          <div
+            class="chakra-form__helper-text css-0"
+            id="field-:r1:-helptext"
+          >
+            public-description
+          </div>
+        </div>
+        <button
+          class="chakra-button css-0"
+          type="submit"
+        >
+          create
+        </button>
+      </div>
+      <a
+        href="/games/first-game"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27256%27%20height=%27256%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            title="see-game-details"
+          />
+          <noscript />
+        </span>
+      </a>
+    </div>
+  </form>
+</DocumentFragment>
+`;

@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { Container, GameList } from '~/components/molecules';
 
 type Props = {
-  games: Game[];
+  games: GameSummary[];
 };
 
 export const Games: React.FC<Props> = ({ games }) => {
