@@ -2,7 +2,7 @@ import type { GetStaticProps, NextPage } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import type { Namespace } from 'react-i18next';
 import { Games } from '~/components/templates';
-import { fetchGql } from '~/lib/graphcms';
+import { fetchGql } from '~/lib/hygraph';
 
 type Props = {
   games: Game[];
