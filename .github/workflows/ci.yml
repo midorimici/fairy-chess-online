@@ -14,7 +14,7 @@ on:
       - 'yarn.lock'
 
 env:
-  NODE_VERSION: 17
+  NODE_VERSION: 16
 
 jobs:
   setup-env:
